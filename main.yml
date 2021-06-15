@@ -30,7 +30,7 @@ Parameters:
   GitHubPersonalAccessToken:
     Type: String
     NoEcho: true
-    Default: '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'
+    Default: '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'
     Description: 'A GitHub personal access token with "repo" and
 "admin:repo_hook" permissions.'
 
