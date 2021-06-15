@@ -13,12 +13,15 @@ Parameters:
     Default: '/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2'
   CodePipelineBucket:
     Type: String
+    Default: 'educative-codepipeline'
     Description: 'The S3 bucket for CodePipeline artifacts.'
   GitHubOwner:
     Type: String
+    Default: 'fuhuan1991'
     Description: 'The username of the source GitHub repo.'
   GitHubRepo:
     Type: String
+    Default: 'aws-bootstrap'
     Description: 'The source GitHub repo name (without the username).'
   GitHubBranch:
     Type: String
@@ -27,6 +30,7 @@ Parameters:
   GitHubPersonalAccessToken:
     Type: String
     NoEcho: true
+    Default: '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'
     Description: 'A GitHub personal access token with "repo" and
 "admin:repo_hook" permissions.'
 
